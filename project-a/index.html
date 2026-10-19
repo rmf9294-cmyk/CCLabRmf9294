@@ -1,0 +1,155 @@
+<!-- 
+Template for IMA's Creative Coding Lab 
+
+Project A: Generative Creatures
+CCLaboratories Biodiversity Atlas 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Energy Siphon</title>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.4/lib/p5.js"></script>
+
+    <script>
+        // Prevent scrolling when spacebar and arrow keys are pressed.
+        window.addEventListener("keydown", function (e) {
+            if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+                e.preventDefault();
+            }
+        }, false);
+    </script>
+</head>
+
+<body>
+    <!-- Title -->
+    <div id="title-wrapper">
+        <h1 class="headline black">ENERGY SIPHON</h1>
+    </div>
+
+    <!-- Main content -->
+    <div id="main-wrapper">
+        <main>
+            <!-- Your p5.js sketch will appear here -->
+        </main>
+
+        <div class="two-columns">
+            <div class="left">
+                <h3 class="red">Energivora:</h3>
+                <p>ENERGY SIPHON</p>
+
+                <h3 class="red">Discovered by Rehaan Fokeerbux:</h3>
+                <p>CCLab, Fall 2026</p>
+
+                <h3 class="green">Organism Description:</h3>
+                <p>
+                    The Energy Siphon is a mysterious, flower-like organism
+                    with a central nucleus, spiked leaves, antennae and
+                    a long, flexible tail. It reacts to nearby movement and
+                    appears to detect potential energy sources through its
+                    sensitive central core.
+                </p>
+            </div>
+
+            <div class="right">
+                <h3 class="green">Habitat:</h3>
+                <p>
+                    The Energy Siphon is believed to inhabit dark environments such as space
+                    where energy accumulates. It is rarely observed remaining
+                    still, constantly moving in search of potential energy
+                    sources.
+                </p>
+
+                <h3 class="green">Appearance:</h3>
+                <p>
+                    At first glance, the Energy Siphon resembles an unusual
+                    flower. Its central nucleus is surrounded by tentacle-like
+                    appendages and sharp spikes, while its long tail provides
+                    flexibility and movement. Despite its flower-like
+                    appearance, its unusual features suggest a creature
+                    adapted for survival and energy absorption.
+                </p>
+
+                <h3 class="green">Key Characteristics:</h3>
+                <ul>
+                    <li>Follows nearby movement.</li>
+                    <li>Central nucleus changes colour when approached.</li>
+                    <li>Tail sways and changes shape.</li>
+                    <li>Possesses multiple spiked appendages.</li>
+                    <li>Releases blood-like particles when disturbed.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="one-column">
+            <p>
+                <span class="yellow">
+                    What we know so far about the Energy Siphon
+                </span>
+
+                The Energy Siphon, scientifically designated
+                <i>Vampyroflora </i>, is an organism
+                believed to obtain energy from its surroundings rather
+                than relying on conventional food sources. Its name refers
+                to its suspected ability to siphon energy from nearby
+                living organisms.
+
+                Its central nucleus appears to be its most sensitive
+                feature. When a potential energy source approaches, the
+                nucleus changes colour, suggesting that it can detect
+                changes in its immediate environment. Its appendages and
+                flexible tail remain in motion, possibly helping it sense
+                movement or respond to external stimuli.
+
+                Although its exact feeding mechanism remains unknown,
+                researchers suspect that the Energy Siphon absorbs energy
+                to sustain itself. Its spikes may serve as a defensive
+                feature, while the blood-like particles it releases when
+                disturbed could be a warning or defence mechanism.
+
+                Much about this creature remains a mystery. Does it drain
+                energy directly from other organisms, or does it absorb
+                energy released into its surroundings? Further observation
+                is needed to understand its behaviour and discover what
+                happens when it encounters a stronger energy source.
+
+                <br><br>
+
+                <span class="yellow">
+                    Guidelines for human interaction with this creature
+                </span>
+
+                Approach the Energy Siphon slowly and observe its central
+                nucleus from a safe distance. Sudden movements may trigger
+                a defensive response. Avoid touching its spikes or tail,
+                and pay attention to changes in the colour of its nucleus,
+                which may indicate that it has detected your presence.
+
+                If the creature begins releasing blood-like particles,
+                retreat and allow it time to settle. Do not assume that
+                its flower-like appearance makes it harmless. Until its
+                feeding mechanism is understood, it is best to observe
+                the Energy Siphon without disturbing it.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="black">
+        <p>A CCLab project made by Rehaan Fokeerbux in Fall 2026</p>
+    </div>
+
+    <!-- Link back to ATLAS -->
+    <div id="home">
+        <a href="https://cclab.work/atlas/">Back to the ATLAS</a>
+    </div>
+
+    <!-- Include your sketch.js file -->
+    <script src="sketch.js" type="text/javascript"></script>
+</body>
+
+</html>
